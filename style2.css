@@ -1,0 +1,735 @@
+/*@import url('https://fonts.googleapis.com/css?family=Lobster|Pangolin&subset=cyrillic');*/
+@import url('https://fonts.googleapis.com/css?family=Pangolin&subset=cyrillic,cyrillic-ext');
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Pangolin', cursive;
+}
+h2{
+    font-size: 2rem;
+}
+
+.ct {
+    text-shadow: 5px 5px 5px #333;
+}
+
+@media (max-width: 575px) {
+    .ct {
+        font-size: 2.25rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .ct {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .bg-light {
+        background-color: transparent !important;
+    }
+}
+
+.shd_frm {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1031;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.pr {
+    color: red;
+    font-weight: 900;
+}
+
+.mess1 {
+    max-width: 600px;
+    background-color: white;
+    margin: 15% auto;
+    padding: 25px;
+    overflow: hidden;
+    display: none;
+}
+
+.mess1 p {
+    padding: 8px 5px;
+}
+
+.mess1 ul {
+    width: 45%;
+    list-style: none;
+    padding: 5px 15px;
+    float: left;
+}
+
+.mess1 h1 {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 31px;
+    color: #365392;
+    margin-bottom: 15px;
+}
+
+.mess1 hr {
+    border: 0;
+    height: 1px;
+    color: #dadada;
+    background-color: #dadada;
+}
+
+.itsok {
+    max-width: 400px;
+    background-color: white;
+    margin: 15% auto;
+    padding: 25px;
+    overflow: hidden;
+    display: none;
+}
+
+.itsok h1 {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 31px;
+    color: #365392;
+    margin-bottom: 15px;
+}
+
+.okbtn {
+    background-color: #6bba70;
+    color: white;
+    border-width: 0px;
+    padding: 9px 32px;
+    margin: 15px 10px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.get_tkt {
+    max-width: 800px;
+    background-color: white;
+    margin: 15% auto;
+    padding: 25px;
+    overflow: hidden;
+    display: none;
+}
+
+.get_tkt hr {
+    border: 0;
+    height: 1px;
+    color: #dadada;
+    background-color: #dadada;
+}
+
+.get_tkt h1 {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 31px;
+    color: #365392;
+    margin-bottom: 5px;
+}
+
+.get_tkt select {
+    font-size: 16px;
+    color: #3d3e3f;
+    border-width: 0px;
+    padding: 8px 10px;
+    background-color: #f5f5f5;
+}
+
+.yespliz {
+    background-color: #6bba70;
+    color: white;
+    border-width: 0px;
+    padding: 9px 32px;
+    margin: 15px 10px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.nopliz, .noplz2 {
+    background-color: #da3b01;
+    color: white;
+    border-width: 0px;
+    padding: 9px 32px;
+    margin: 15px 10px;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.pfrm {
+    padding: 0 5px;
+    float: left;
+}
+
+.dfrm {
+    clear: both;
+    overflow: hidden;
+}
+
+.delbtn {
+    font-size: 16px;
+    color: white;
+    border-width: 0px;
+    background-color: #db4331;
+    margin-top: 25px;
+    padding: 0 9px 5px 9px;
+    font-weight: 600;
+}
+
+.addpz {
+    background-color: #6699cc;
+    color: white;
+    border-width: 0px;
+    padding: 5px 10px;
+    font-weight: 400;
+    font-size: 16px;
+    float: right;
+}
+
+.dfrm input[type=text] {
+    font-size: 16px;
+    color: #3d3e3f;
+    border-width: 0px;
+    padding: 8px 10px;
+    background-color: #f5f5f5;
+    border: 1px dotted #cfcfcf;
+    margin: 0 10px;
+    width: 300px;
+}
+
+.dfrm p {
+    margin: 10px 0;
+}
+
+.pscroll {
+    padding: 100px 0;
+}
+
+.full_w {
+    height: 100%;
+    min-height: 800px;
+}
+
+.bg-1 {
+    background-image: url(images/fon2/blumissimo.jpg);
+}
+
+.f_menu {
+    /*border:1px dotted red;*/
+    position: fixed;
+    width: 100%;
+    bottom: 20px;
+    z-index: 100;
+}
+
+.page_1 {
+    overflow: hidden;
+}
+
+.bg-2 {
+    background: url(images/fon2/green.jpg);
+}
+
+.bctext {
+    position: relative;
+    padding:15px 0;
+    background-color: rgba(37, 80, 22, 0.6);
+    /*background-color: rgba(69, 138, 45, 0.6);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.14);*/
+}
+
+.bccontent {
+    font-size: 14px;
+    position: relative;
+    text-align: justify;
+}
+
+.bcafter {
+    color: white;
+    text-align: center;
+    position: absolute;
+    background-color: #db4331;
+    right: -30px;
+    bottom: -20px;
+    z-index:1;
+}
+
+.bcbefor {
+    position: absolute;
+    color: white;
+    text-align: center;
+    background-color: #7eba41;
+    top: -20px;
+    left: 20px;
+}
+
+.main_menu_vert {
+    position: absolute;
+    color: white;
+    width: 200px;
+}
+
+.main_menu_vert li {
+    list-style: none;
+    margin: 10px 10px;
+    padding: 5px 15px;
+    display: inline-block;
+    float: right;
+    transition: all 0.1s ease;
+}
+
+.main_menu_vert li a {
+    color: white;
+    text-decoration: none;
+}
+
+.main_menu_vert li:hover {
+    box-shadow: 3px 3px 13px -3px #000000;
+}
+
+.bcbefor h1 {
+    font-size: 23px;
+    font-weight: 500;
+    padding: 3px 25px;
+}
+
+.bcafter h1 {
+    font-size: 23px;
+    font-weight: 500;
+    padding: 3px 25px;
+}
+
+.bcmenu {
+    position: absolute;
+    left: -170px;
+    top: 40px;
+}
+
+.srete ul {
+    margin: 30px 0 0 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5px 15px;
+    overflow: hidden;
+}
+
+.srete li {
+    float: left;
+    list-style: none;
+    margin: 0 10px;
+}
+
+.srete img {
+    width: 30px;
+}
+
+/* Page for parent */
+.page_2 {
+    overflow: hidden;
+}
+
+.bg-3 {
+    background-image: url(images/fon2/bege.jpg);
+}
+
+.card {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    /*text-align: justify;*/
+    color: #fff;
+}
+
+.p2left .card-body,
+.p2right .card-body {
+   /* background-color: rgba(131, 106, 39, 0.6);*/
+}
+
+.childalber li {
+    margin: 5px 0;
+}
+
+.p2name {
+    color: #314475;
+    background-color: white;
+    display: inline-block;
+}
+
+.p2name h1 {
+    font-size: 21px;
+    font-weight: 500;
+    margin: 5px 65px 5px 20px;
+}
+
+.danger {
+    position: relative;
+}
+
+.p2inf strong {
+    font-weight: 500;
+}
+
+.p2inf h1 {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px 25px;
+    background-color: #414e6e;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.p2inf h2 {
+    font-size: 17px;
+    font-weight: 400;
+    padding: 5px 20px;
+    background-color: #414e6e;
+    display: inline-block;
+    margin: 7px 0;
+}
+
+.page_3 {
+    overflow: hidden;
+}
+
+.bg-4 {
+    background-image: url(images/fon2/blue.jpg);
+}
+
+.p3cnt {
+    background-color: rgba(62, 101, 156, 0.83);
+}
+
+.p3inf {
+    margin: 65px 25px;
+    background-color: white;
+}
+
+.socprime {
+    position: relative;
+    height: 50px;
+}
+
+.p3head {
+    position: relative;
+    height: 120px;
+}
+
+.p3head h1 {
+    font-size: 21px;
+    font-weight: 300;
+    padding: 13px 0px 13px 150px;
+    margin: 20px;
+    background-color: #2e92d5;
+    color: white;
+    width: 18%;
+    position: absolute;
+    z-index: 1;
+}
+
+.p3head h1 img {
+    position: absolute;
+    top: -52px;
+    left: -15px;
+}
+
+.p3head h2 {
+    width: 60%;
+    font-size: 15px;
+    font-weight: 400;
+    float: right;
+    display: inline-block;
+}
+
+.getpdf {
+    color: #fff;
+    font-weight: 400;
+    text-decoration: underline;
+    background-color: rgb(123, 181, 107);
+    padding: 2px 10px;
+}
+
+.getpdf:hover {
+    color: #ffffff;
+}
+
+.bg-7 {
+    background-image: url(images/fon2/blumissimo.jpg);
+}
+
+.orglogo {
+    background-size: cover;
+    background-position: center center;
+    background-image: url(images/diaglogo.png);
+    position: relative;
+    overflow: hidden;
+}
+
+.fmounts {
+    position: absolute;
+    bottom: 0;
+    height: 113px;
+    width: 100%;
+    background-position: bottom center;
+    background-image: url(images/razer.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.orgc {
+    max-width: 300px;
+    margin: 9% auto;
+    position: relative;
+}
+
+.org_content_cnt {
+    background-color: white;
+    padding-top: 20px;
+    margin-bottom: 15px;
+    color: #4e759d;
+}
+
+.org_content_cnt h1 {
+    font-size: 18px;
+    font-weight: 400;
+    border-bottom: 1px dotted rgba(47, 75, 128, 0.5);
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.eventorg {
+    display: inline-block;
+    text-align: right;
+    padding: 35px 30px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.eventorg a {
+    text-decoration: none;
+    color: #4e759d;
+}
+
+.eventinf {
+    display: inline-block;
+    text-align: left;
+    padding: 35px 30px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.freeimg {
+    position: absolute;
+}
+
+.schedule {
+    overflow: hidden;
+}
+
+.bg-5 {
+    background-image: url(images/fon2/grey.jpg);
+}
+
+.forcap h1 {
+    background-color: white;
+    color: #3d6b45;
+    font-size: 21px;
+    font-weight: 500;
+    padding: 5px 75px 5px 25px;
+    display: inline-block;
+}
+
+.tt2 {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.schdcnt .card-body {
+    background-color: rgba(117, 117, 117, 0.6);
+}
+
+.gallery {
+    overflow: hidden;
+}
+
+.bg-6 {
+    background-image: url(images/fon2/ross.jpg);
+}
+
+.gltexture {
+    max-width: 1150px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.glcap {
+    position: relative;
+}
+
+.glcap h1 {
+    background-color: #d55344;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 40px 60px 12px;
+    display: inline-block;
+    padding: 5px 75px 5px 25px;
+}
+
+.fgbody {
+    width: 100%;
+    overflow: hidden;
+    margin: 40px 0 90px 0;
+
+}
+
+.big_img {
+    height: 550px;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(images/IMG_0034.jpg);
+    margin: 75px 0 75px 0;
+}
+
+.imgdesc {
+    overflow: hidden;
+}
+
+.imgnotif {
+    color: #d55344;
+    border: 1px solid rgba(209, 230, 177, 0.92);
+    background-color: rgba(255, 255, 255, 0.92);
+    margin: 20px 61px 20px 20px;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.imgnotif h2 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.imgnotif p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.altrimg {
+    margin: 20px 50px 20px 20px;
+}
+
+.altrimg ul {
+    width: 100%;
+    max-height: 90px;
+    list-style: none;
+}
+
+.altrimg ul li {
+    width: 30.2%;
+    float: left;
+    border: 1px solid rgba(209, 230, 177, 0.92);
+    margin: 0 10px 10px 0;
+    height: 80px;
+    overflow: hidden;
+}
+
+.altrimg img {
+    width: 100%;
+}
+
+.col-md-10.col-lg-9.col-xl-8.card.mx-auto.mb-3 {
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+}
+
+ul.navbar-nav.main_menu {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px 7px;
+}
+
+.main_menu .nav-link.btn {
+    border-radius: 0;
+    color: #fff;
+    font-family: 'Pangolin', cursive;
+}
+
+.btn-group-vertical {
+    position: fixed;
+    bottom: 50%;
+    z-index: 1;
+}
+
+.btn-social-icon {
+    height: 2.5rem;
+    padding: 2px 6px;
+}
+
+.btn-social-icon > :first-child {
+    position: relative;
+    font-size: 1.6em;
+}
+/* ---------------- Новые стили ------------- */
+.hd-title {
+    color: #333;
+    background: rgba(255, 247, 154, 0.9);
+    border-radius: 6px;
+    padding: 7px 25px;
+    display: inline;
+    font-family: Calibri;
+    font-size: 18px;
+    font-weight: 400;
+}
+.nbage{
+	width: 33%;
+	position: absolute;
+	top: 50%;
+	right: 0px;
+}
+.dsh-lr {
+    box-shadow:
+       0 1px 4px rgba(0, 0, 0, .3),
+       -23px 0 20px -23px rgba(0, 0, 0, .8),
+       23px 0 20px -23px rgba(0, 0, 0, .8),
+       0 0 40px rgba(0, 0, 0, .1) inset;
+}
+a.text-light:focus, a.text-light:hover {
+   text-decoration: none;
+}
+.card-title{
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.48);
+}
+h2.bg-success:before{
+    width: 30px;
+    height: 30px; 
+    z-index: 1; 
+    background: #28a745;
+    border-radius: 126%;
+    content: "";
+    display: block;
+    position: relative;
+    bottom: -5px;
+    left: -15px;
+    transform: rotate(-120deg);
+    box-shadow: 0 1px 0 3px white, 3px 0 0 6px #28a745, 4px 1px 0 9px white, 5px -1px 0 13px #28a745, 5px -1px 5px 12px rgba(0,0,0,.3);    
+}
+.text-white{
+	border-radius:22px;
+}
+h2.bg-primary:after {
+    width: 30px;
+    height: 30px;
+    z-index: 1;
+    background: #0077f7;
+    border-radius: 126%;
+    content: "";
+    display: block;
+    position: relative;
+    bottom: -5px;
+    right: -16px;
+    transform: rotate(-120deg);
+    box-shadow: 1px 2px 0px 3px white, 3px 3px 0 6px #0078fa, 3px 5px 0 9px white, 4px 6px 0 13px #0078fa, 4px 7px 2px 12px rgba(0,0,0,.3);
+}

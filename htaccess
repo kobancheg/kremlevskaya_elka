@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.kremlevskaya-elka.mtuf.ru$ [NC]
+RewriteRule ^(.*)$ http://kremlevskaya-elka.mtuf.ru/$1 [R=301,L]

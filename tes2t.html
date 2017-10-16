@@ -1,0 +1,344 @@
+﻿<html>
+<head>
+	<title>Кремлевская Ёлка 2017 - Офицальный сайт</title>
+	<link rel="stylesheet" type="text/css" href="style2.css"/>
+	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+	
+	<script type="text/javascript" src="http://mtuf.ru/hostcmsfiles/jquery/jquery.js"></script>
+	
+	<script>
+	var pselect;
+	var scroll_el;
+	
+	function window_resize(){
+		document.body.style.overflow = "hidden";
+		var page_h = window.innerHeight;
+		//var page_w = $("html").width();
+		$(".full_w").height(page_h);
+		//$(".full_w").width(page_w-1);
+		
+		if ($(scroll_el).length != 0) { // проверим существование элемента чтобы избежать ошибки
+			$('html, body').animate({ scrollTop: $(scroll_el).offset().top }, 10);
+		}
+	};
+	
+	$(document).ready(function(){
+		$('.main_menu a').click( function(){ // ловим клик по ссылке с классом go_to
+			scroll_el = $(this).attr('href'); // возьмем содержимое атрибута href, должен быть селектором, т.е. например начинаться с # или .
+			if ($(scroll_el).length != 0) { // проверим существование элемента чтобы избежать ошибки
+			$('html, body').animate({ scrollTop: $(scroll_el).offset().top }, 500); // анимируем скроолинг к элементу scroll_el
+			}
+			return false; // выключаем стандартное действие
+		});
+		
+		$('.main_menu_vert a').click( function(){ // ловим клик по ссылке с классом go_to
+			scroll_el = $(this).attr('href'); // возьмем содержимое атрибута href, должен быть селектором, т.е. например начинаться с # или .
+			if ($(scroll_el).length != 0) { // проверим существование элемента чтобы избежать ошибки
+			$('html, body').animate({ scrollTop: $(scroll_el).offset().top }, 500); // анимируем скроолинг к элементу scroll_el
+			}
+			return false; // выключаем стандартное действие
+		});
+	});
+	</script>
+</head>
+<body onresize="window_resize();" onload="window_resize();">
+	<div class="full_w">
+		<div style="height:15%;">
+		</div>
+		<div class="for_logo" >
+			<div class="f_center">
+				<img src="halberonatale.png">
+				<img src="bage2017.png" style="position:absolute; width:115px; top:220px; right:-62px; z-index:10;">
+				<h1 style="/*width:250%; margin-left:-50%;*/ text-align:center; margin-left:-35%; color:#2b2b2b; position:relative; z-index:20;">КРЕМЛЁВСКАЯ ЁЛКА</h1>
+			</div>
+		</div>
+		<div class="f_menu">
+			<ul class="main_menu">
+				<li style="background-color:#7eba41;"><a href=".full_w">Главная</a></li>
+				<li style="background-color:#f2c427;"><a href=".page_1">Галерея</a></li>
+				<li style="background-color:#2e92d5;"><a href=".page_2">Родителям</a></li>
+				<li style="background-color:#db4331;"><a href=".page_3">Группам</a></li>
+				<li style="background-color:#f48d1e;"><a href=".schedule">Расписание и Цены</a></li>
+				<li style="background-color:#c2de52;"><a href=".organization">Контакты</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	
+	
+	<div class="page_1">
+		<div style="position:relative; max-width:1200px; margin:10% auto; /*border:1px solid red;*/">
+			<div class="bctext">
+				<div class="srete">
+					<ul>
+						<li><a><img src="http://mtuf.ru/images/mtuf/myicons/vk2.png"></a></li>
+						<li><a><img src="http://mtuf.ru/images/mtuf/myicons/in.png"></a></li>
+						<li><a><img src="http://mtuf.ru/images/mtuf/myicons/tw.png"></a></li>
+						<li><a><img src="http://mtuf.ru/images/mtuf/myicons/fb.png"></a></li>
+						<li><a><img src="http://mtuf.ru/images/mtuf/myicons/yt.png"></a></li>
+					</ul>
+				</div>
+				<div class="bcafter">
+					<h1>ГЛАВНАЯ ЁЛКА СТРАНЫ</h1>
+				</div>
+				<div class="bcbefor">
+					<h1>КРЕМЛЁВСКАЯ ЁЛКА</h1>
+				</div>
+				<div class="bcmenu">
+					<ul class="main_menu_vert">
+						<li style="background-color:#7eba41;"><a href=".full_w">Главная</a></li>
+						<li style="background-color:#f2c427;"><a href=".page_1">Галерея</a></li>
+						<li style="background-color:#2e92d5;"><a href=".page_2">Родителям</a></li>
+						<li style="background-color:#db4331;"><a href=".page_3">Группам</a></li>
+						<li style="background-color:#f48d1e; text-align:center; font-size:14px;"><a href=".schedule">Расписание и<br /> Цены</a></li>
+						<li style="background-color:#c2de52;"><a href=".organization">Контакты</a></li>
+					</ul>
+				</div>
+				<div class="bccontent">
+					<div style="margin:25px 30px 30px 60px;">
+						<p>Весёлые хороводы и танцы у новогодней красавицы ёлки, звонкий детский смех и незабываемый вкус шоколадных конфет, настоящий Дедушка Мороз и самая добрая Новогодняя сказка на главной сцене Государственного Кремлёвского Дворца!<br />&nbsp;</p>
+						<p>Кремлёвская Ёлка – Главное Новогоднее представление в России и заветная мечта для миллионов  мальчишек и девчонок в нашей стране. Каждый год в новогодние каникулы специально для юных зрителей в Государственном Кремлёвском дворце оживает сказочный мир: фойе дворца наполняют музыка  и танцы, любимые детские игры и зимние забавы, а спектакль на главной сцене, дарит юным зрителям незабываемую встречу с любимыми сказочными героями.<br />&nbsp;</p>
+						<p>По традиции в рамках Новогодних представлений в Кремле проходят Общероссийская Ёлка, Патриаршия Ёлка, а в один из дней все представления  адаптированы для детей с нарушением слуха.<br />&nbsp;</p>
+						<p>В подготовке и проведении Кремлёвской Ёлки задействовано более 1,5 тысяч человек. Это артисты театров, известные певцы и музыканты, воспитанники детских творческих коллективов. А встречать и провожать детей по традиции будут  учащиеся и педагоги московских школ, студенты волонтеры московских ВУЗов.<br />&nbsp;</p>
+						<p>Организаторы  праздника: Московская Федерация профсоюзов, Управление делами Президента РФ и Правительство Москвы<br /></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	
+	<div class="page_2">
+		<div class="p2mapa">
+			<div class="p2left">
+				<div class="p2name">
+					<h1>РОДИТЕЛЯМ</h1>
+				</div>
+				<div class="danger">
+					<img src="snowshi.png" style="position:absolute; top:-30px; right:60px;">
+					<h2>ВНИМАНИЕ</h2>
+					<p>В связи с участившимися сообщениями в СМИ о необходимости медицинских документов для посещения Кремлёвской Ёлки, сообщаем: Для посещения Кремлёвской Ёлки (кроме Общероссийской Ёлки) <strong>никаких медицинских документов не требуется.</strong></p>
+				</div>
+				<div class="danger" style="background-color:rgba(255, 255, 255, 0.12); /*padding:20px 25px; margin:35px 0;*/">
+					<img src="angel.png" style="position:absolute; top:-20px; left:-40px;">
+					<p>В связи с участившимися случаями подделки билетов убедительно просим не приобретать билеты с рук у частных лиц.</p>
+				</div>
+				<div class="danger" style="background-color:rgba(255, 255, 255, 0.12);">
+					<img src="babonatale.png" style="position:absolute; top:30px; right:-30px;">
+					<h2>Где получить подарок по неиспользованному билету:</h2>
+						  <p><strong>В Государственном Кремлёвском Дворце:</strong><br /><strong>2016 год:</strong> 25 декабря -  с 10.00 до 18.30; 26 декабря – выдача не производится; с 27 по 30 декабря – с 10.00 до 18.30; 31 декабря – с 10.00 до 15.30 <br /><strong>2017 год:</strong> 01 января – с 12.00 до 18.30; с 02 по 08 января – с 10.00 до 18.30; 09 января с 10.00 до 16.00.</p>
+						  <p><strong>С 12 по 30 января 2017 года</strong> выдача подарков будет осуществляться по адресу: г. Москва, Протопоповский пер., д. 25 стр. 1 (м. «Проспект Мира» кольцевая) с 10.00 до 16.00.</p>
+				</div>
+			</div>
+			<div class="p2right">
+				<div class="srete" style="top:10; right:0;">
+					<ul style="display:inline-block; background-color:white; padding:5px 10px;">
+						<li><a><img src="http://mtuf.ru/images/mtuf/myicons/vk2.png"></a></li>
+						<li><a><img src="http://mtuf.ru/images/mtuf/myicons/in.png"></a></li>
+						<li><a><img src="http://mtuf.ru/images/mtuf/myicons/tw.png"></a></li>
+						<li><a><img src="http://mtuf.ru/images/mtuf/myicons/fb.png"></a></li>
+						<li><a><img src="http://mtuf.ru/images/mtuf/myicons/yt.png"></a></li>
+					</ul>
+				</div>
+				<div class="p2inf">
+					<h1>ПОЛЕЗНАЯ ИНФОРМАЦИЯ</h1>
+					<div style="height:40%; overflow:auto;">
+						 <p>Вход зрителей начинается за 1 час 15 мин. до начала спектакля через Троицкие ворота (Кутафью башню) Московского Кремля. Проезд: ст. метро <strong>«Александровский сад»</strong>.</p>
+						  <p>&nbsp;</p>
+						  <p>Билет с корешком подарка необходимо сохранять до конца спектакля. Выдача подарка осуществляется после окончания спектакля в Фойе ГКД по билету с корешком подарка.</p>
+						  <p>&nbsp;</p>
+						  <p>Вход на мероприятие осуществляется строго по билетам (с корешком «Контроль» и «Подарок»). Билет действителен только на указанный день и сеанс.</p>
+						  <p>&nbsp;</p>
+						  <p>Отправляя ребенка на Ёлку, позаботьтесь о том, чтобы у него был с собой номер Вашего мобильного телефона.</p>
+						  
+						<h2>О детях, которые идут на представление без родителей</h2>
+							<ul style="margin:5px 25px;" class="childalber">
+								<li>Не волнуйтесь, приходя на Кремлевскую Елку, ваш ребенок всегда остается под присмотром организаторов;</li>
+								<li>Он не может заблудиться или потеряться;</li>
+								<li>УВАЖАЕМЫЕ РОДИТЕЛИ ПОЗАБОТЬТЕСЬ О ТОМ, ЧТОБЫ У ОРГАНИЗАТОРОВ БЫЛА ВОЗМОЖНОСТЬ СВЯЗАТЬСЯ С ВАМИ В СЛУЧАЕ НЕОБХОДИМОСТИ. Записка с номером телефона будет отличным решением;</li>
+								<li>Знайте, до представления на главной сцене, дети водят хороводы, играют в зимние игры. Позаботьтесь о том, чтобы Вашему ребенку было удобно. Отлично, когда у ребенка нет в руках сумок, пакетов, кошельков и телефонов;</li>
+								<li>Прекрасным вариантом будет маленький рюкзачок или нашейный карман (например, карман для сотового телефона), в который будет вложен билет, телефон, если есть такая необходимость, и записка с именем и контактными телефонами родителей;</li>
+								<li>Многие дети приходят на Ёлку в великолепных костюмах. Позаботьтесь о том, чтобы у вашего малыша был пакет, в который он с легкостью сложит всю одежду и обувь, которые сдаст в гардероб;</li>
+								<li>Если вы с ребенком едите из далека, то не забудьте дать ребенку перекусить или выпить сладкого теплого чая.</li>
+							</ul>
+					</div>
+					<h2 style="color:#c2de52;">Патриаршия Ёлка</h2>
+						<p>Благотворительная Патриаршия Ёлка состоится 8 января 2017г. в 14:00. В празднике примут участие дети из воскресных школ, приютов и детских домов</p>
+					<h2 style="color:#f48d1e;">Ёлка с сурдопереводом</h2>
+						<p>В рамках реализации проекта «Кремлёвская елка для детей с нарушением слуха», все спектакли и представления в фойе будут сопровождаться сурдопереводом.</p>						  
+				</div>
+				<div style="position:relative;">
+					<img src="pingvin.png" style="position:absolute; right:10px; bottom:15px;">
+				</div>
+			</div>
+			
+			<ul class="main_menu">
+				<li style="background-color:#7eba41;"><a href=".full_w">Главная</a></li>
+				<li style="background-color:#f2c427;"><a href=".page_1">Галерея</a></li>
+				<li style="background-color:#2e92d5;"><a href=".page_2">Родителям</a></li>
+				<li style="background-color:#db4331;"><a href=".page_3">Группам</a></li>
+				<li style="background-color:#f48d1e;"><a href=".schedule">Расписание и Цены</a></li>
+				<li style="background-color:#c2de52;"><a href=".organization">Контакты</a></li>
+			</ul>						  
+
+		</div>
+	</div>
+
+	<div class="page_3">
+		<div class="p3cnt">
+			<div class="p3inf">
+				<div class="socprime">
+					<div class="srete" style="top:20; right:-30px;">
+						<ul style="display:inline-block; background-color:white; padding:5px 10px;">
+							<li><a><img src="http://mtuf.ru/images/mtuf/myicons/vk2.png"></a></li>
+							<li><a><img src="http://mtuf.ru/images/mtuf/myicons/in.png"></a></li>
+							<li><a><img src="http://mtuf.ru/images/mtuf/myicons/tw.png"></a></li>
+							<li><a><img src="http://mtuf.ru/images/mtuf/myicons/fb.png"></a></li>
+							<li><a><img src="http://mtuf.ru/images/mtuf/myicons/yt.png"></a></li>
+						</ul>
+					</div>
+				</div>
+			<div class="p3head">
+				<h1><img src="rainbow.png">ПАМЯТКА</h1>
+				<div class="h2prime">
+					<h2>РУКОВОДИТЕЛЯМ ОРГАНИЗОВАННЫХ ГРУПП ДЕТЕЙ<br /> (В ТОМ ЧИСЛЕ ТУРИСТИЧЕСКИХ)</h2>
+				</div>
+			</div>
+				<div class="grcontent">
+					<p>Вход на детские новогодние представления в Государственном Кремлёвском Дворце осуществляются строго в день и время указанные в билетах.</p>
+					<p>Дети, посещающие Кремлёвскую Ёлку в составе организованных групп,  должны иметь опознавательную символику (одинаковые: галстуки, головные уборы, шарфы, бейджи, нарукавные повязки, ленточки или  др.)</p>
+					<p>Организованные группы проходят в ГКД только в сопровождении  взрослых. Количество взрослых, сопровождающих детские группы и проходящих с детьми в ГКД, определяется из расчета 1 взрослый на 10 детей. Остальные сопровождающие ожидают детей на территории Кремля до выхода групп из здания ГКД (через подъезд № 13).</p>
+					<p>Вход групп детей на территорию Кремля осуществляется через Кутафью башню, с обязательным информированием дружинников (осуществляющих дежурство на Кутафьей башне) о прибытии на елку организованной группы детей.</p>
+					<p>Вход групп в Государственный Кремлёвский Дворец осуществляется через подъезд № 13 (мимо главного входа в ГКД пройти вперед и повернуть направо).</p>
+					<p>При входе в ГКД (подъезд № 13) дружиннику предъявляются билеты на всех детей.</p>
+					<p>В подъезде № 13 руководитель группы обязан зарегистрироваться у дежурного сотрудника дружины (указать: откуда группа, количество детей, Ф.И.О. старшего группы, его мобильный телефон).</p>
+					<p>Группы раздеваются и одеваются в гардеробе в строго отведённом месте (оно будет указано дежурными в гардеробе).</p>
+					<p>Перед входом в зрительный зал, всех детей необходимо собрать в одну группу, и организованно, в сопровождении дежурного детского актива, пройти на спектакль.</p>
+					<p>Получение подарков детьми осуществляется только по билетам, после окончания представления (централизованно получить подарки по билетам на всю группу могут и руководители групп, но только за 15 минут до окончания спектакля). Продолжительность спектакля на главной сцене: 60 – 65 мин.</p>
+					<p>Продажа подарков не производится.</p>
+					<p>Для выхода из ГКД: группа, одевшись,  выстраивается в гардеробе в колонну по 2 человека, и, при наличии полного состава детей, организованно, вместе с  сопровождающим и дружинником, направляется к выходу из здания ГКД через подъезд № 13.</p>
+					<p>Сразу после выхода из 13 подъезда, группа вновь выстраивается в колонну по 2 чел., еще раз проверяется наличие всех детей, и, по команде дружинника, осуществляется выход группы в специально организованный проход для организованных групп.</p>
+					<p>В случае обнаружения отсутствия детей в группе за пределами ГКД и Кремля необходимо обратиться в штаб ДНД в ГКД (подъезд № 13).</p>
+				</div>	
+				<p align="center"><img src="cocopdf.png" style="margin:10px;"><br /><a href="#" class="getpdf">Скачать в формате PDF</a></p>
+			<ul class="main_menu">
+				<li style="background-color:#7eba41;"><a href=".full_w">Главная</a></li>
+				<li style="background-color:#f2c427;"><a href=".page_1">Галерея</a></li>
+				<li style="background-color:#2e92d5;"><a href=".page_2">Родителям</a></li>
+				<li style="background-color:#db4331;"><a href=".page_3">Группам</a></li>
+				<li style="background-color:#f48d1e;"><a href=".schedule">Расписание и Цены</a></li>
+				<li style="background-color:#c2de52;"><a href=".organization">Контакты</a></li>
+			</ul>					
+			</div>
+		</div>
+	</div>	
+
+	<div class="schedule">
+	<div style="max-width: 1150px; margin:0 auto;">
+		<div class="forcap">
+			<h1>РАСПИСАНИЕ И ЦЕНЫ</h1>
+		</div>
+		<div class="tt2">
+		
+			<div class="schdcnt">
+				<div style="background-color:rgba(0,0,0,0.16); overflow:hidden;">
+					<div style="margin:15px 20px;">
+						<h2>О билетах</h2>
+						<p>Билеты на главную Ёлку страны распространяются через городские отраслевые профсоюзы и профсоюзные организации предприятий и учреждений. Часть билетов поступит в продажу в кассы ГКД, часть в театрально-концертные кассы города.</p>
+						<ul style="margin:10px 20px;">
+							<li>Существует два вида билетов: `ребенок + взрослый` и `ребенок без сопровождения` (для школьников)</li>
+							<li>Все билеты на Кремлевскую Елку без мест (если Вам предлагают билеты на первый ряд, вип-билеты и т.д. Вас жестоко обманывают)</li>
+							<li>Представления длятся два часа. Двери в ГКД открываются за 1,5 часа до начала представления на сцене. Например, если начало представления в 10.00 – то начало представления в фойе в 9.00, а двери для детей откроют в 8.30 – 8.45.</li>
+						</ul>
+						<h2><img src="soldi.png" style="width:35px; vertical-align:middle; margin:15px ;">Цены на Новогодние билеты в 2017 году</h2>
+						<div style="background-color:rgba(17,151,81,0.5); margin:0 0 10px 0; padding:10px 20px;">
+							<p style="font-size:18px; font-weight:300;">Стоймость билета для школьника:</p>
+							<p style="font-size:21px; font-weight:400; text-align:center;">2 000 рублей</p>
+						</div>
+						<div style="background-color:rgba(24,117,69,0.5);  margin:0 0 10px 0; padding:10px 20px;">
+							<p style="font-size:18px; font-weight:300;">Стоймость билета для школьника с родителем:</p>
+							<p style="font-size:21px; font-weight:400; text-align:center;">4 500 рублей (партер)<br />3 800 рублей (амфитеатр)<br />3 000 рублей (балкон)</p>
+						</div>	
+					</div>
+				</div>
+			</div>
+			
+			<div class="prscnt">
+				<div style="background-color:rgba(0,0,0,0.33); overflow:hidden;">
+					<div style="margin:15px 20px;">
+						<h2>Расписание сеансов на новогодние Ёлки<br /> 2016-2017 гг.</h2>
+						<p>Детские Новогодние праздники в Государственном Кремлевском Дворце (ГКД) будут проходить с 25 декабря 2016 года по 8 января 2017 года.</p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+				<div>
+					<ul class="main_menu">
+						<li style="background-color:#7eba41;"><a href=".full_w">Главная</a></li>
+						<li style="background-color:#f2c427;"><a href=".page_1">Галерея</a></li>
+						<li style="background-color:#2e92d5;"><a href=".page_2">Родителям</a></li>
+						<li style="background-color:#db4331;"><a href=".page_3">Группам</a></li>
+						<li style="background-color:#f48d1e;"><a href=".schedule">Расписание и Цены</a></li>
+						<li style="background-color:#c2de52;"><a href=".organization">Контакты</a></li>
+					</ul>
+				</div>	
+	</div>
+	</div>
+	
+	<div class="organization">
+		<div class="orglogo">
+					<div class="srete" style="top:20; right:40px;">
+						<ul style="display:inline-block; background-color:white; padding:5px 10px;">
+							<li><a><img src="http://mtuf.ru/images/mtuf/myicons/vk2.png"></a></li>
+							<li><a><img src="http://mtuf.ru/images/mtuf/myicons/in.png"></a></li>
+							<li><a><img src="http://mtuf.ru/images/mtuf/myicons/tw.png"></a></li>
+							<li><a><img src="http://mtuf.ru/images/mtuf/myicons/fb.png"></a></li>
+							<li><a><img src="http://mtuf.ru/images/mtuf/myicons/yt.png"></a></li>
+						</ul>
+					</div>
+			<div class="orgc">
+				<img src="stella.png" class="freeimg" style="top:10px; left:-295px;">
+				<img src="logomfp.png" >
+			</div>
+			<div class="fmounts">
+				
+			</div>
+		</div>
+		
+		<div style="height:50%;">
+			<div class="org_content_cnt">
+			<div style="max-width:1150px; margin:0 auto;">
+				<div class="eventorg">
+					<h1>МОСКОВСКАЯ ФЕДЕРАЦИЯ ПРОФСОЮЗОВ</h1>
+						<p>121099, МОСКВА, НОВЫЙ АРБАТ, 36</p>
+						<p></i> +7 (495) 690-82-62<br />
+						+7 (495) 690-83-91</p>
+						<p><a href="http://mtuf.ru/" target="_blank">САЙТ: WWW.MTUF.RU</a><br /><a href="mailto:main@mtuf.ru">ЭЛЕКТРОННАЯ ПОЧТА: MAIN@MTUF.RU</a></p>
+						<img src="pechenka.png" class="freeimg" style="bottom:-10px; left:20%;">
+				</div>
+				<div class="eventinf">
+					<img src="letter.png" class="freeimg" style="top:-15px; right:50px;">
+					<h1>ИНФОРМАЦИЯ О МЕРОПРИЯТИИ</h1>
+						<p>Организаторами праздника являются: Московская Федерация профсоюзов, Управление делами Президента РФ и Правительство Москвы.</p>
+						<p>По вопросу аккредитации СМИ обращайтесь в пресс-службу Московской Федерации профсоюзов: <i class="fa fa-phone"></i> +7 (495) 690-76-92.<br /> Срок подачи заявок до 20 декабря 2016 г.</p>
+				</div>
+				<div>
+					<ul class="main_menu">
+						<li style="background-color:#7eba41;"><a href=".full_w">Главная</a></li>
+						<li style="background-color:#f2c427;"><a href=".page_1">Галерея</a></li>
+						<li style="background-color:#2e92d5;"><a href=".page_2">Родителям</a></li>
+						<li style="background-color:#db4331;"><a href=".page_3">Группам</a></li>
+						<li style="background-color:#f48d1e;"><a href=".schedule">Расписание и Цены</a></li>
+						<li style="background-color:#c2de52;"><a href=".organization">Контакты</a></li>
+					</ul>
+				</div>
+			</div>
+			</div>	
+		</div>
+	</div>
+	
+</body>
+</html>
