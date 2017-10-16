@@ -673,15 +673,17 @@ ul.navbar-nav.main_menu {
     font-size: 1.6em;
 }
 /* ---------------- Новые стили ------------- */
-.hd-title {
-    color: #333;
-    background: rgba(255, 247, 154, 0.9);
-    border-radius: 6px;
-    padding: 7px 25px;
-    display: inline;
-    font-family: Calibri;
-    font-size: 18px;
-    font-weight: 400;
+@media (min-width: 540px) {
+        .hd-title {
+            color: #333;
+            background: rgba(255, 247, 154, 0.9);
+            border-radius: 6px;
+            padding: 7px 25px;
+            display: inline;
+            font-family: Calibri;
+            font-size: 18px;
+            font-weight: 400;
+        }
 }
 .nbage{
 	width: 33%;
