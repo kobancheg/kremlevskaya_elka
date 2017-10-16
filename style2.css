@@ -688,6 +688,7 @@ ul.navbar-nav.main_menu {
 	position: absolute;
 	top: 50%;
 	right: 0px;
+    z-index: 1;
 }
 .dsh-lr {
     box-shadow:
